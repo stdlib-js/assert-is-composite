@@ -50,13 +50,18 @@ A **composite number** is defined as a positive integer value greater than `1` w
 ## Usage
 
 ```javascript
+import isComposite from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-composite@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-composite/tags). For example,
+
+```javascript
 import isComposite from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-composite@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-composite@v0.1.0-esm/index.mjs';
+import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-composite@esm/index.mjs';
 ```
 
 #### isComposite( value )
@@ -138,7 +143,7 @@ bool = isComposite.isObject( new Number( 4.0 ) );
 <script type="module">
 
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@esm/index.mjs';
-import isComposite from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-composite@v0.1.0-esm/index.mjs';
+import isComposite from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-composite@esm/index.mjs';
 
 var bool = isComposite( 4.0 );
 // returns true
