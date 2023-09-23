@@ -50,13 +50,13 @@ A **composite number** is defined as a positive integer value greater than `1` w
 ## Usage
 
 ```javascript
-import isComposite from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-composite@deno/mod.js';
+import isComposite from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-composite@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-composite@deno/mod.js';
+import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-composite@v0.1.0-deno/mod.js';
 ```
 
 #### isComposite( value )
@@ -133,7 +133,7 @@ bool = isComposite.isObject( new Number( 4.0 ) );
 
 ```javascript
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@deno/mod.js';
-import isComposite from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-composite@deno/mod.js';
+import isComposite from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-composite@v0.1.0-deno/mod.js';
 
 var bool = isComposite( 4.0 );
 // returns true
